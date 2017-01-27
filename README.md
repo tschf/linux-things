@@ -16,7 +16,7 @@ And more, through manual installation:
 
 General fonts
 
-Manaul
+Manual
 
 * https://github.com/adobe-fonts/source-code-pro, see also: http://askubuntu.com/questions/193072/how-to-use-the-new-adobe-source-code-pro-font
 
