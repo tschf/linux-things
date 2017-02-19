@@ -23,7 +23,9 @@ Manual
 Other stuff
 
 * Pretty print JSON - python comes with a tool to do this. Just add an alias for `prettyjson` that points to `python -m json.tool`; then you can pipe an unformatted json string into it: `cat file.json | prettyjson`. See [here](http://stackoverflow.com/questions/352098/how-can-i-pretty-print-json/1920585#1920585)
+* `~/.bash_profile` only executed in non interactive shells. For the GUI environment, a good place is `~/.profile`. [See here for more info](http://askubuntu.com/questions/121073/why-bash-profile-is-not-getting-sourced-when-opening-a-terminal)
 
 Containers
 
 * Docker - install using [this guide](https://docs.docker.com/engine/installation/linux/ubuntu/)
+
