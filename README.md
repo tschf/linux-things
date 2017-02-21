@@ -34,3 +34,6 @@ Containers
 
 * Docker - install using [this guide](https://docs.docker.com/engine/installation/linux/ubuntu/)
 
+Atom
+
+* Atom installed through umake (`umake ide atom`), doesn't currently set up `apm` in the path. Issue logged [here](https://github.com/ubuntu/ubuntu-make/issues/411). Set up link: `cd ~/.local/share/umake/bin && ln -s ~/.local/share/umake/ide/atom/resources/app/apm/node_modules/.bin/apm apm`
