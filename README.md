@@ -26,6 +26,10 @@ Other stuff
 * `~/.bash_profile` only executed in non interactive shells. For the GUI environment, a good place is `~/.profile`. [See here for more info](http://askubuntu.com/questions/121073/why-bash-profile-is-not-getting-sourced-when-opening-a-terminal)
 * Screen recording (gif) - use byzanz-record and gifsicle. See [here](http://askubuntu.com/questions/107726/how-to-create-animated-gif-images-of-a-screencast) and [here](http://tschf.github.io/2015/12/02/screencast-gif-in-ubuntu/) for more info.
 
+Browser
+
+* Fix flickering in Chrome on Ubuntu - `Settings > Advance Settings > System > uncheck the hardware acceleration`. See [here](http://askubuntu.com/questions/766725/annoying-flickering-in-16-04-lts-chrome)
+
 Containers
 
 * Docker - install using [this guide](https://docs.docker.com/engine/installation/linux/ubuntu/)
