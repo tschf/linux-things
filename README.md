@@ -37,3 +37,7 @@ Containers
 Atom
 
 * Atom installed through umake (`umake ide atom`), doesn't currently set up `apm` in the path. Issue logged [here](https://github.com/ubuntu/ubuntu-make/issues/411). Set up link: `cd ~/.local/share/umake/bin && ln -s ~/.local/share/umake/ide/atom/resources/app/apm/node_modules/.bin/apm apm`
+
+Nautilus
+
+* By default, list view expansion icon is not displayed. This can be enabled from: Edit -> Preferences -> Display; The option at the bottom "Navigate folders in a tree". [See here](http://askubuntu.com/a/429220/50523).
