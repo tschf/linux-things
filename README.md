@@ -42,3 +42,18 @@ Atom
 Nautilus
 
 * By default, list view expansion icon is not displayed. This can be enabled from: Edit -> Preferences -> Display; The option at the bottom "Navigate folders in a tree". [See here](http://askubuntu.com/a/429220/50523).
+
+Oracle
+
+* Oracle tns names, when using instant client good place to chuck is oracle_home. e.g. export TNS_ADMIN=${ORACLE_HOME}. Then a tnsnames.ora entry will look like (below). Connect then with sqlplus user/pass@XE:
+
+```
+XE =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.0.182)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = XE)
+    )
+  )
+```
