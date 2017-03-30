@@ -9,6 +9,7 @@ Packages that may help:
 * ttf-bitstream-vera  
 * fonts-symbola 
 * ttf-ancient-fonts-symbola
+* powerline - install for fanciful fonts in bash (such as the git branch icon used in oh-my-zsh:agnoster) (Alternatively, may check out the repo: [powerline/fonts](https://github.com/powerline/fonts)
 
 And more, through manual installation:
 
