@@ -58,3 +58,7 @@ XE =
     )
   )
 ```
+
+Git
+
+* Global git ignore, configured with property `git config --global core.excludesfile`. See [here](http://stackoverflow.com/questions/7335420/global-git-ignore)
